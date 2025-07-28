@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lading Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Seja muito Bem-Vindo(a)</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Cadastrar-se</h2>
+            <form>
+                <label for="new-email"></label>
+                <input type="email" id="new-email" name="email" placeholder="Digite seu e-mail" required />
+
+                <label for="password"></label>
+                <input type="password" id="password" name="password" placeholder="Crie uma senha" required />
+
+                <button type="submit">Criar conta</button>
+            </form>
+        </section>
+
+
+        <section>
+            <h2>Fazer login</h2>
+            <label for="login-email"></label>
+            <input type="email" id="login-email" name="email" placeholder="Seu e-mail" required />
+
+
+            <label for="login-password"></label>
+            <input type="password" id="login-password" name="password" placeholder="Sua senha" required />
+
+            <button type="submit">Entrar</button>
+        </section>
+    </main>
+
+    <div>
+        <button onclick="document.body.classList.toggle('dark')">🌙</button>
+    </div>
+
+    <footer>
+    <a href="#">Facebook</a>
+    <a href="#">Instagram</a>
+    <a href="#">X (Twitter)</a>
+    </footer>
+
+
+</body>
+
+</html>

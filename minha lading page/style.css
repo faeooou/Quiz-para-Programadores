@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    color: burlywood;
+}
+
+header {
+    background-color: chocolate;
+    color: whitesmoke;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    flex-wrap: wrap;
+}
+
+section {
+    background-color: white;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 1rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+input {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+button {
+    margin-top: 1.5rem;
+    padding: 0.75rem;
+    background-color: coral;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: chocolate;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #e0e7ff;
+}
+
+a {
+    color: chocolate;
+    transition: color 0.3s ease;
+}
+
+body.dark {
+  background-color: #111;
+  color: #eee;
+}
+
+body.dark header {
+  background-color: #222;
+  color: #fff;
+}
+
+body.dark section {
+  background-color: #1a1a1a;
+  color: #fff;
+
+}
+
+body.dark input {
+  background-color: #333;
+  color: #fff;
+  border: 1px solid #555;
+}
+
+body.dark input::placeholder {
+  color: #aaa;
+}
+
+body.dark button {
+  background-color: #ff7f50;
+  color: #111;
+}
+
+body.dark footer {
+  background-color: #1a1a1a;
+  color: #fff;
+}
+
+body.dark a {
+  color: #ff7f50;
+}
+
+body.dark a:hover {
+  color: #ffa07a;
+}
+
+div {
+    margin: 10px;
+    padding: 10px;
+}
